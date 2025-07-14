@@ -30,7 +30,7 @@ pipeline{
             }
         }
         stage('Date'){
-            step{
+            steps{
                 sh 'date'
             }
         }
